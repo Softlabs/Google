@@ -3,7 +3,7 @@ Google
 
 This package is a simple laravel 4 wrapper for Softlabs/google-api-php-client package.
 
-Usage:
+Usage
 -----
 
     // Instantiate google AIP client
@@ -46,6 +46,9 @@ Now you can set your config values:
 - _client-id_: Client ID under the Service account title
 - _service-account-name_: Email address under the Service account title
 - _key-file_: the path where you saved your private key in step 7.
-- _scope_: an array of scopes that you will use in your application
+- _scope_: an array of scopes that you will use in your application. you can find the required scopes for every service in [API documentation](https://code.google.com/p/google-api-php-client/wiki/Samples).
+
+To be able to use google services for a google account __you have to share__ items with the service account (_service-account-name_). For example if you want to handle google calendars of somebody@gmail.com, then somebody@gmail.com should share its calendars with ????????????@developer.gserviceaccount.com.
+
 
 
