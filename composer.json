@@ -14,16 +14,12 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "ext-curl" : "*",
-        "softlabs/google-api-php-client": "dev-master"
+        "ext-curl" : "*"
     },
     "autoload": {
         "psr-0": {
             "Softlabs\\Google": "src/"
         }
     },
-    "repositories": [
-        { "type": "vcs", "url": "http://github.com/softlabs/google-api-php-client" }
-    ],
     "minimum-stability": "dev"
 }
