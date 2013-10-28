@@ -22,8 +22,5 @@
             "Softlabs\\Google": "src/"
         }
     },
-    "repositories": [
-        { "type": "vcs", "url": "http://github.com/softlabs/google-api-php-client" }
-    ],
     "minimum-stability": "dev"
 }
