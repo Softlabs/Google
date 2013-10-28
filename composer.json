@@ -1,5 +1,5 @@
 {
-    "name": "softlabs/Google",
+    "name": "softlabs/google",
     "type": "library",
     "description": "Google API library for PHP",
     "keywords": ["google"],
